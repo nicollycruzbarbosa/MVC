@@ -11,11 +11,10 @@ echo "<h2> Lista de Alunos:</h2> <ul>";
 foreach($alunos as $aluno){
 //Para cada aluno, imprime um item na lista (li).
 //Exibe o nome do aluno e sua idade, formatados como "Nome - Idade anos".
-echo "<li>{$aluno['nome']} - {$aluno['idade']} anos</li>";
+echo "<li>{$aluno['nome']} - {$aluno
+['idade']} anos</li>";
 }
-
-
-
+echo "</ul>";
 
 }
 ?>
